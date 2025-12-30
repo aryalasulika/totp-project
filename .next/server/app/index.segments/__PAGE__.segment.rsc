@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/796e69ae18b2784c.js"],""]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"ND8lFOKQVquKSrpmXfh1l","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen flex-col items-center justify-center p-24 bg-gray-100","children":["$","div",null,{"className":"bg-white p-8 rounded-xl shadow-lg border border-gray-200 text-center max-w-lg","children":[["$","h1",null,{"className":"text-3xl font-bold mb-4 text-blue-800","children":"Admin Login"}],["$","p",null,{"className":"mb-8 text-gray-600","children":"Input your username and password to login."}],["$","div",null,{"className":"space-x-4","children":[["$","$L2",null,{"href":"/login","className":"px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 font-medium transition-colors","children":"Login"}],["$","$L2",null,{"href":"/register","className":"px-6 py-3 bg-gray-800 text-white rounded-md hover:bg-gray-900 font-medium transition-colors","children":"Register"}]]}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/796e69ae18b2784c.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

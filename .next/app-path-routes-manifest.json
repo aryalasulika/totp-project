@@ -1,0 +1,15 @@
+{
+  "/(auth)/login/page": "/login",
+  "/(auth)/register/page": "/register",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/2fa/disable/route": "/api/auth/2fa/disable",
+  "/api/auth/2fa/generate/route": "/api/auth/2fa/generate",
+  "/api/auth/2fa/verify/route": "/api/auth/2fa/verify",
+  "/api/auth/login/route": "/api/auth/login",
+  "/api/auth/register/route": "/api/auth/register",
+  "/dashboard/page": "/dashboard",
+  "/page": "/",
+  "/settings/page": "/settings",
+  "/users/page": "/users"
+}

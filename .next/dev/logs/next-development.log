@@ -1,0 +1,3308 @@
+[00:00:00.716] Server  LOG     ✓ Ready in 458ms
+[00:00:04.932] Server  ERROR   ⨯ ./app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+
+
+
+./app/page.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+
+
+[00:00:05.270] Browser ERROR   uncaughtError: Error: ./app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+
+
+[00:00:05.524] Browser ERROR   ./app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:05.524] Browser ERROR   ./app/page.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:05.524] Browser ERROR   ./app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:05.524] Browser ERROR   ./app/page.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:06.167] Browser ERROR   ./app/layout.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:00:06.167] Browser ERROR   ./app/page.tsx
+Specified module format (CommonJs) is not matching the module format of the source code (EcmaScript Modules)
+The CommonJs module format was specified in the package.json that is affecting this source file or by using an special extension, but Ecmascript import/export syntax is used in the source code.
+The module was automatically converted to an EcmaScript module, but that is in conflict with the specified module format. Either change the "type" field in the package.json or replace EcmaScript import/export syntax with CommonJs syntas in the source file.
+In some cases EcmaScript import/export syntax is added by an transform and isn't actually part of the source code. In these cases revisit transformation options to inject the correct syntax.
+[00:02:55.213] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: Failed to load external module file:///D:/Project%20React.js/TOTP/postcss.config.js: ReferenceError: module is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\Project React.js\TOTP\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    [at Context.externalImport (turbopack:///[turbopack]/shared-node/base-externals-utils.ts:16:11)]
+    [at async <anonymous> (turbopack:///[project]/postcss.config.js_.loader.mjs:9:13)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:57.213] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: Failed to load external module file:///D:/Project%20React.js/TOTP/postcss.config.js: ReferenceError: module is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\Project React.js\TOTP\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    [at Context.externalImport (turbopack:///[turbopack]/shared-node/base-externals-utils.ts:16:11)]
+    [at async <anonymous> (turbopack:///[project]/postcss.config.js_.loader.mjs:9:13)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:02:59.709] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:00.215] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:03:32.293] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:49.439] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:03:49.446] Server  LOG     prisma:query "BEGIN"
+[00:03:49.448] Server  LOG     prisma:query "INSERT INTO `totp_db`.`User` (`id`,`username`,`password`,`totp_enabled`,`created_at`) VALUES (?,?,?,?,?)"
+[00:03:49.451] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:03:49.453] Server  LOG     prisma:query "COMMIT"
+[00:03:55.532] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:04:00.409] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:04:01.896] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:04:02.990] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:04:20.085] Server  LOG     prisma:query "SELECT 1"
+[00:04:20.085] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:04:23.256] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:04:23.266] Server  ERROR   (node:19304) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[00:04:23.267] Server  LOG     prisma:query "BEGIN"
+[00:04:23.268] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:04:23.269] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_secret` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:04:23.269] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:04:23.270] Server  LOG     prisma:query "COMMIT"
+[00:05:22.143] Server  LOG     prisma:query "SELECT 1"
+[00:05:22.143] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:05:37.668] Server  LOG     prisma:query "SELECT 1"
+[00:05:37.668] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:05:37.675] Server  LOG     prisma:query "BEGIN"
+[00:05:37.675] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:05:37.675] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:05:37.676] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:05:37.715] Server  LOG     prisma:query "COMMIT"
+[00:05:50.734] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:06:07.142] Server  LOG     prisma:query "SELECT 1"
+[00:06:07.143] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:06:07.144] Server  LOG     prisma:query "BEGIN"
+[00:06:07.144] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:06:07.145] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:06:07.145] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:06:07.145] Server  LOG     prisma:query "COMMIT"
+[00:10:04.699] Server  LOG     ✓ Compiled in 250ms
+[00:10:06.069] Server  LOG     ✓ Compiled in 228ms
+[00:10:37.294] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.298] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.305] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.308] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.311] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.314] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.317] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.319] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.322] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.324] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.329] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.338] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.339] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.340] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.341] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.342] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.343] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.344] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.345] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.346] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.347] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.348] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.349] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.350] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.351] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.352] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.354] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.355] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.356] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.357] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.368] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.376] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.381] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.383] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.387] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.389] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.392] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.395] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.397] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.401] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.403] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.406] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.407] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.413] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.415] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.416] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.417] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.417] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.419] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.420] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.421] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.422] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.423] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.424] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.425] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.426] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.427] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.429] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.430] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.431] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.436] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.437] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.440] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.442] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.443] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.446] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.447] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.449] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.451] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.453] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.454] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.456] Server  ERROR   ⨯ ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.457] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.458] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.459] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.460] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.461] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.462] Server  ERROR   ⨯ ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.463] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.464] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.464] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.465] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.466] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.467] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.468] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.470] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.471] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.472] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.475] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.476] Server  ERROR   ⨯ ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:37.479] Server  LOG     ✓ Compiled in 220ms
+[00:10:38.203] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:38.203] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:38.203] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:51.206] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:52.203] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:52.203] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:52.203] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:03.245] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:03.245] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:03.245] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:03.245] Browser ERROR   ./app/dashboard/page.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useRouter } from 'next/navigation';
+  4 | import Image from 'next/image';
+> 5 | import { Shield, Users, Activity, Lock, Unlock } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Sidebar from '@/components/dashboard/Sidebar';
+  7 | import Header from '@/components/dashboard/Header';
+  8 | import StatsCard from '@/components/dashboard/StatsCard';
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:03.245] Browser ERROR   ./components/dashboard/Header.tsx:1:1
+Module not found: Can't resolve 'lucide-react'
+> 1 | import { Bell, Search } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Header({ username }: { username: string }) {
+  4 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Header.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Header.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:03.246] Browser ERROR   ./components/dashboard/Sidebar.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link';
+> 2 | import { Home, Users, Settings, Shield, LogOut } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Sidebar({ onLogout }: { onLogout: () => void }) {
+  5 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/Sidebar.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Client Component Browser]
+    ./app/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/Sidebar.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Client Component SSR]
+    ./app/dashboard/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:03.350] Server  LOG     ✓ Compiled in 127ms
+[00:11:04.732] Server  LOG     ✓ Compiled in 913ms
+[00:12:12.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:03.778] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:23.234] Server  LOG     prisma:query "SELECT 1"
+[00:14:23.235] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:34.534] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:35.239] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:35.376] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:36.327] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:37.064] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:37.230] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:37.517] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:37.669] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:37.846] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:52.861] Server  LOG     prisma:query "SELECT 1"
+[00:14:52.861] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:53.749] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:53.933] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:54.901] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:14:55.192] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:16:02.830] Server  LOG     prisma:query "SELECT 1"
+[00:16:02.830] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:16:02.832] Server  LOG     prisma:query "BEGIN"
+[00:16:02.832] Server  LOG     prisma:query "INSERT INTO `totp_db`.`User` (`id`,`username`,`password`,`totp_enabled`,`created_at`) VALUES (?,?,?,?,?)"
+[00:16:02.835] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:16:02.838] Server  LOG     prisma:query "COMMIT"
+[00:16:09.535] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:16:20.342] Server  LOG     prisma:query "SELECT 1"
+[00:16:20.342] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:16:20.345] Server  LOG     prisma:query "BEGIN"
+[00:16:20.346] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:16:20.347] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_secret` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:16:20.347] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:16:20.388] Server  LOG     prisma:query "COMMIT"
+[00:16:32.368] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:16:32.370] Server  LOG     prisma:query "BEGIN"
+[00:16:32.370] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:16:32.371] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:16:32.371] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:16:32.374] Server  LOG     prisma:query "COMMIT"
+[00:17:59.633] Server  LOG     prisma:query "SELECT 1"
+[00:17:59.633] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:18:05.437] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:18:05.438] Server  LOG     prisma:query "BEGIN"
+[00:18:05.439] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:18:05.439] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:18:05.439] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:18:05.440] Server  LOG     prisma:query "COMMIT"
+[00:23:31.877] Server  LOG     ✓ Compiled in 93ms
+[00:24:02.773] Server  LOG     ✓ Compiled in 121ms
+[00:25:18.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:41.917] Server  LOG     ✓ Compiled in 168ms
+[00:31:08.481] Server  LOG     ✓ Compiled in 948ms
+[00:31:47.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:47.878] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:48.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:13.597] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:32:13.600] Server  LOG     prisma:query "BEGIN"
+[00:32:13.600] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:32:13.600] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_secret` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:32:13.600] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:32:13.606] Server  LOG     prisma:query "COMMIT"
+[00:32:55.379] Server  LOG     prisma:query "SELECT 1"
+[00:32:55.379] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:33:03.408] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:33:03.411] Server  LOG     prisma:query "BEGIN"
+[00:33:03.411] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:33:03.412] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:33:03.412] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:33:03.412] Server  LOG     prisma:query "COMMIT"
+[00:33:17.031] Server  LOG     prisma:query "SELECT 1"
+[00:33:17.032] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:33:20.562] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:33:29.151] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:33:29.152] Server  LOG     prisma:query "BEGIN"
+[00:33:29.153] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:33:29.153] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:33:29.153] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:33:29.153] Server  LOG     prisma:query "COMMIT"
+[00:33:47.898] Server  LOG     prisma:query "SELECT 1"
+[00:33:47.898] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:33:55.793] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:34:02.738] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:34:02.740] Server  LOG     prisma:query "BEGIN"
+[00:34:02.740] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:34:02.740] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:34:02.741] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:34:02.741] Server  LOG     prisma:query "COMMIT"
+[00:38:02.515] Server  LOG     ✓ Compiled in 129ms
+[00:38:50.175] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:51.518] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:55.562] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:38:55.563] Server  LOG     prisma:query "BEGIN"
+[00:38:55.563] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:38:55.564] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_secret` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:38:55.564] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:38:55.565] Server  LOG     prisma:query "COMMIT"
+[00:39:17.674] Server  LOG     prisma:query "SELECT 1"
+[00:39:17.674] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:39:17.675] Server  LOG     prisma:query "BEGIN"
+[00:39:17.676] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:39:17.676] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:39:17.676] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:39:17.676] Server  LOG     prisma:query "COMMIT"
+[00:39:29.290] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:39:35.664] Server  LOG     prisma:query "SELECT 1"
+[00:39:35.664] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:39:35.665] Server  LOG     prisma:query "BEGIN"
+[00:39:35.666] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:39:35.668] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:39:35.668] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:39:35.669] Server  LOG     prisma:query "COMMIT"
+[00:45:21.362] Server  LOG     ✓ Compiled in 138ms
+[00:45:49.348] Server  LOG     ✓ Compiled in 207ms
+[00:47:49.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:59.518] Server  LOG     prisma:query "BEGIN"
+[00:47:59.518] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:47:59.520] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:47:59.523] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:47:59.526] Server  LOG     prisma:query "COMMIT"
+[00:48:08.547] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:48:11.731] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:48:11.735] Server  LOG     prisma:query "BEGIN"
+[00:48:11.735] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:48:11.736] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_secret` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:48:11.736] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:48:11.773] Server  LOG     prisma:query "COMMIT"
+[00:48:46.330] Server  LOG     prisma:query "SELECT 1"
+[00:48:46.330] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:48:46.334] Server  LOG     prisma:query "BEGIN"
+[00:48:46.337] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:48:46.337] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:48:46.337] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:48:46.416] Server  LOG     prisma:query "COMMIT"
+[00:54:19.132] Server  LOG     ✓ Compiled in 182ms
+[00:54:21.147] Server  LOG     ✓ Compiled in 179ms
+[00:54:46.563] Server  LOG     ✓ Compiled in 135ms
+[00:54:48.597] Server  LOG     ✓ Compiled in 135ms
+[00:55:20.145] Server  LOG     ✓ Compiled in 115ms
+[00:57:01.767] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:57:15.924] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:57:15.925] Server  LOG     prisma:query "BEGIN"
+[00:57:15.926] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:57:15.926] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:57:15.926] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:57:15.927] Server  LOG     prisma:query "COMMIT"
+[00:57:35.866] Server  LOG     prisma:query "SELECT 1"
+[00:57:35.866] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:57:41.693] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:57:41.698] Server  LOG     prisma:query "BEGIN"
+[00:57:41.699] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[00:57:41.700] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[00:57:41.701] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[00:57:41.704] Server  LOG     prisma:query "COMMIT"
+[01:04:29.686] Server  LOG     ✓ Compiled in 118ms
+[01:05:29.458] Server  LOG     ✓ Compiled in 103ms
+[01:05:57.248] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`username` = ? AND 1=1) LIMIT ? OFFSET ?"
+[01:06:08.972] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[01:06:08.975] Server  LOG     prisma:query "BEGIN"
+[01:06:08.975] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id` FROM `totp_db`.`User` WHERE (`totp_db`.`User`.`id` = ? AND 1=1)"
+[01:06:08.976] Server  LOG     prisma:query "UPDATE `totp_db`.`User` SET `totp_enabled` = ? WHERE (`totp_db`.`User`.`id` IN (?) AND (`totp_db`.`User`.`id` = ? AND 1=1))"
+[01:06:08.976] Server  LOG     prisma:query "SELECT `totp_db`.`User`.`id`, `totp_db`.`User`.`username`, `totp_db`.`User`.`password`, `totp_db`.`User`.`totp_secret`, `totp_db`.`User`.`totp_enabled`, `totp_db`.`User`.`created_at` FROM `totp_db`.`User` WHERE `totp_db`.`User`.`id` = ? LIMIT ? OFFSET ?"
+[01:06:08.976] Server  LOG     prisma:query "COMMIT"
+[01:06:17.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:49.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:58.638] Server  LOG     ✓ Compiled in 110ms
+[01:12:00.821] Server  LOG     ✓ Compiled in 150ms
