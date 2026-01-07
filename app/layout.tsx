@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Admin Login",
-  description: "Research environment for TOTP artifacts",
+  description: "Input your username and password to login.",
 };
 
 export default function RootLayout({

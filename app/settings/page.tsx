@@ -209,7 +209,7 @@ export default function SettingsPage() {
                                 
                                 <div className="space-y-4 text-left max-w-xs">
                                   <div className="bg-yellow-50 border border-yellow-200 rounded p-3">
-                                     <p className="text-xs font-bold text-yellow-800 uppercase mb-1">Secret Key (Forensic)</p>
+                                     <p className="text-xs font-bold text-yellow-800 uppercase mb-1">Secret Key</p>
                                      <code className="text-xs font-mono text-yellow-900 break-all">{secret}</code>
                                   </div>
                                   <div className="text-sm">
